@@ -1,4 +1,4 @@
-# DIY-Python-H2OAutoML
+# H2OAutoML
 A comprehensive framework for training AutoML models using H2O's AutoML library. This project includes data ingestion, transformation, and model training functionalities, all accessible through an interactive Streamlit web application.
 
 ## 📑 Table of Contents
@@ -45,7 +45,8 @@ By leveraging AutoML, you can streamline your machine learning workflow and achi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/PreProd-Internship/DIY-Python-H2OAutoML
+git clone https://github.com/VITB-Tigers/H2OAutoML.git
+cd H2OAutoML
 ```
 
 2. Create and activate a virtual environment (recommended). If using Conda:
@@ -73,7 +74,7 @@ streamlit run app.py
 ## 📁 Project Structure
 
 ```
-DIY-Python-H2OAutoML/
+H2OAutoML/
     ├── data/
     │   ├── dataset1.csv (Datasets 1-4 are smaller datasets for better accuracy but higher accuracy)
     │   ├── dataset2.csv

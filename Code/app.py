@@ -2,8 +2,6 @@
 # Description: This code script contains the Streamlit web app for training AutoML models using H2O AutoML.
 # Developed By: 
     # Name: Vansh Raja
-    # Role: Intern, PreProd Corp
-    # Code ownership rights: Vansh Raja, PreProd Corp
 
 # Version: 1.0 [Date: 12-12-2024]
 # CODE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -37,13 +35,6 @@ st.set_page_config(
     page_title="AutoML",           # Title displayed in browser tab
     page_icon=":bar_chart:",       # Emoji/icon for the page
     layout="centered"               # Center-aligned layout
-)
-
-# Set the logo for the web application
-# Uses an external image URL and provides a link when logo is clicked
-st.logo(
-    image="https://i.imgur.com/zXj45M2.png",        # Logo image URL
-    link="https://thepreprodcorp.com/"              # Website link when logo is clicked
 )
 
 # Create a centered heading for the web application using markdown
